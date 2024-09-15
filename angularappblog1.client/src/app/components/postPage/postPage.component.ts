@@ -30,7 +30,6 @@ export class PostPageComponent {
     return Array(Math.ceil(this.postService.totalCount / this.perPage)).fill(0).map((p, i) => i + 1);
   }
 
-  //PAGE NUMBER VE DİSABLED/account kısmının gözükmesi
 
   changePage(page: number) {
     if (this.pageNumber == 1) {
