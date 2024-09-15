@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BLOG\\AngularAppBlog1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFC5865-4B93-4D94-B2B4-67C1E4CA8F70}|AngularAppBlog1.Server\\AngularAppBlog1.Server.csproj|d:\\blog\\angularappblog1\\angularappblog1.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFC5865-4B93-4D94-B2B4-67C1E4CA8F70}|AngularAppBlog1.Server\\AngularAppBlog1.Server.csproj|solutionrelative:angularappblog1.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9443B4D-95BD-4F7A-A6A1-E7303970CACC}|angularappblog1.client\\UI.esproj|d:\\blog\\angularappblog1\\angularappblog1.client\\src\\app\\components\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9443B4D-95BD-4F7A-A6A1-E7303970CACC}|angularappblog1.client\\UI.esproj|solutionrelative:angularappblog1.client\\src\\app\\components\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9443B4D-95BD-4F7A-A6A1-E7303970CACC}|angularappblog1.client\\UI.esproj|d:\\blog\\angularappblog1\\angularappblog1.client\\src\\app\\components\\postpage\\postpage.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A9443B4D-95BD-4F7A-A6A1-E7303970CACC}|angularappblog1.client\\UI.esproj|solutionrelative:angularappblog1.client\\src\\app\\components\\postpage\\postpage.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9443B4D-95BD-4F7A-A6A1-E7303970CACC}|angularappblog1.client\\UI.esproj|d:\\blog\\angularappblog1\\angularappblog1.client\\src\\app\\components\\postpage\\postpage.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9443B4D-95BD-4F7A-A6A1-E7303970CACC}|angularappblog1.client\\UI.esproj|solutionrelative:angularappblog1.client\\src\\app\\components\\postpage\\postpage.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9443B4D-95BD-4F7A-A6A1-E7303970CACC}|angularappblog1.client\\UI.esproj|d:\\blog\\angularappblog1\\angularappblog1.client\\src\\app\\components\\services\\postservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A9443B4D-95BD-4F7A-A6A1-E7303970CACC}|angularappblog1.client\\UI.esproj|solutionrelative:angularappblog1.client\\src\\app\\components\\services\\postservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\BLOG\\AngularAppBlog1\\AngularAppBlog1.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AngularAppBlog1.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\BLOG\\AngularAppBlog1\\AngularAppBlog1.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AngularAppBlog1.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T22:09:28.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "home.component.html",
+              "DocumentMoniker": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\src\\app\\components\\home\\home.component.html",
+              "RelativeDocumentMoniker": "angularappblog1.client\\src\\app\\components\\home\\home.component.html",
+              "ToolTip": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\src\\app\\components\\home\\home.component.html",
+              "RelativeToolTip": "angularappblog1.client\\src\\app\\components\\home\\home.component.html",
+              "ViewState": "AQIAANIAAAAAAAAAAAAAAOYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-13T23:28:05.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "postPage.component.ts",
+              "DocumentMoniker": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\src\\app\\components\\postPage\\postPage.component.ts",
+              "RelativeDocumentMoniker": "angularappblog1.client\\src\\app\\components\\postPage\\postPage.component.ts",
+              "ToolTip": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\src\\app\\components\\postPage\\postPage.component.ts",
+              "RelativeToolTip": "angularappblog1.client\\src\\app\\components\\postPage\\postPage.component.ts",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-10T23:43:48.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "postPage.component.html",
+              "DocumentMoniker": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\src\\app\\components\\postPage\\postPage.component.html",
+              "RelativeDocumentMoniker": "angularappblog1.client\\src\\app\\components\\postPage\\postPage.component.html",
+              "ToolTip": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\src\\app\\components\\postPage\\postPage.component.html",
+              "RelativeToolTip": "angularappblog1.client\\src\\app\\components\\postPage\\postPage.component.html",
+              "ViewState": "AQIAALwAAAAAAAAAAAAAANYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-10T23:43:47.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "postService.ts",
+              "DocumentMoniker": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\src\\app\\components\\services\\postService.ts",
+              "RelativeDocumentMoniker": "angularappblog1.client\\src\\app\\components\\services\\postService.ts",
+              "ToolTip": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\src\\app\\components\\services\\postService.ts",
+              "RelativeToolTip": "angularappblog1.client\\src\\app\\components\\services\\postService.ts",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-10T23:43:16.321Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

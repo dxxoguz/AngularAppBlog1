@@ -1,0 +1,16 @@
+D:\BLOG\AngularAppBlog1\BUSINESS\bin\Debug\net6.0\BUSINESS.deps.json
+D:\BLOG\AngularAppBlog1\BUSINESS\bin\Debug\net6.0\BUSINESS.dll
+D:\BLOG\AngularAppBlog1\BUSINESS\bin\Debug\net6.0\BUSINESS.pdb
+D:\BLOG\AngularAppBlog1\BUSINESS\bin\Debug\net6.0\SHARED.dll
+D:\BLOG\AngularAppBlog1\BUSINESS\bin\Debug\net6.0\SHARED.pdb
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.csproj.AssemblyReference.cache
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.GeneratedMSBuildEditorConfig.editorconfig
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.AssemblyInfoInputs.cache
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.AssemblyInfo.cs
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.csproj.CoreCompileInputs.cache
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.csproj.Up2Date
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.dll
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\refint\BUSINESS.dll
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.pdb
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\ref\BUSINESS.dll
+D:\BLOG\AngularAppBlog1\BUSINESS\obj\Debug\net6.0\BUSINESS.sourcelink.json

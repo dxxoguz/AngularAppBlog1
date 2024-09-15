@@ -1,0 +1,13 @@
+D:\BLOG\AngularAppBlog1\SHARED\bin\Debug\net6.0\SHARED.deps.json
+D:\BLOG\AngularAppBlog1\SHARED\bin\Debug\net6.0\SHARED.dll
+D:\BLOG\AngularAppBlog1\SHARED\bin\Debug\net6.0\SHARED.pdb
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\SHARED.GeneratedMSBuildEditorConfig.editorconfig
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\SHARED.AssemblyInfoInputs.cache
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\SHARED.AssemblyInfo.cs
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\SHARED.csproj.CoreCompileInputs.cache
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\SHARED.dll
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\refint\SHARED.dll
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\SHARED.pdb
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\ref\SHARED.dll
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\SHARED.csproj.AssemblyReference.cache
+D:\BLOG\AngularAppBlog1\SHARED\obj\Debug\net6.0\SHARED.sourcelink.json

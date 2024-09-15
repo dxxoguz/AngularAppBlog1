@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "eHRIIa1qIh4ntXYdZfHeLYn3+qBdgH+8FzUQ9697fCQ=",
+  "Source": "AngularAppBlog1.Server",
+  "BasePath": "_content/AngularAppBlog1.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\BLOG\\AngularAppBlog1\\angularappblog1.client\\UI.esproj",
+      "Version": 2,
+      "Source": "UI",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
