@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title>Register</title>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+    * {
+      font-weight: bolder
+    }
+
+    .container {
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+    <form class="needs-validation" novalidate [formGroup]="registerForm" (submit)="submitForm">
+      <main>
+        <div class="py-5 text-center">
+          <h2>Register Form</h2>
+
+        </div>
+
+        <div class="row g-5">
+          <div class="col-md-5 col-lg-4 order-md-last">
+            <h4 class="d-flex justify-content-center align-items-center mb-3">
+              <span class="">Gender</span>
+              <!--<span class="badge bg-primary rounded-pill">3</span>-->
+            </h4>
+            <!--"-->
+            <div class="my-3">
+              <div class="form-check">
+                <input id="male" name="gender" value="male" type="radio" class="form-check-input" formControlName="gender" [(ngModel)]="userModel.gender">
+                <label class="form-check-label" for="credit">Male</label>
+              </div>
+              <div class="form-check">
+                <input id="female" name="gender" value="female" type="radio" class="form-check-input" formControlName="gender"  [(ngModel)]="userModel.gender">
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+              <div class="form-check">
+                <input id="other" name="gender" value="other" type="radio" class="form-check-input"  formControlName="gender"  [(ngModel)]="userModel.gender" >
+                <label class="form-check-label" for="other">Other</label>
+              </div>
+              <ng-container *ngIf="registerForm?.get('gender')?.touched && registerForm.get('gender')?.errors">
+                <div class="alert alert-danger" *ngIf="registerForm.get('gender')?.errors?.['required']">
+                  Please select your gender
+                </div>
+              </ng-container>
+
+            </div>
+            <hr />
+            <div class="input-group">
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="customer_allow" name="customer_allow"  formControlName="customer_allow"  required [(ngModel)]="userModel.customer_allow" >
+                <label class="form-check-label" for="customer_allow">I allow my information to be stored</label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="customer_inform" formControlName="customer_inform"  >
+                <label class="form-check-label" for="customer_inform">I want to be informed about campaigns and promotions </label>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3 text-center">Billing address</h4>
+
+            <div class="row g-3 d-flex flex-column align-items-center">
+              <div class="col-md-8">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder=" Your Name"  formControlName="firstName"   name="firstName" [(ngModel)]="userModel.firstName" required> 
+                <ng-container *ngIf="registerForm?.get('firstName')?.dirty && registerForm?.get('firstName')?.touched && registerForm?.get('firstName')?.errors">
+                  <div class="alert alert-danger" *ngIf="registerForm?.get('firstName')?.errors?.['required']">
+                    Valid First Name is required.
+                  </div>
+                </ng-container>
+
+              </div>
+              <div class="col-md-8">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="  Your LastName"  formControlName="lastName"   value="" name="lastName" required [(ngModel)]="userModel.lastName">
+                <ng-container *ngIf="registerForm?.get('lastName')?.dirty && registerForm?.get('lastName')?.touched && registerForm?.get('lastName')?.errors">
+                  <div class="alert alert-danger" *ngIf="registerForm?.get('lastName')?.errors?.['required']">
+                    Valid Last Name is required.
+                  </div>
+                </ng-container>
+              </div>
+
+              <div class="col-8">
+                <label for="username" class="form-label">Username</label>
+
+                <input type="text" class="form-control" id="userName" placeholder="  Your Username" value=""  formControlName="userName"   name="userName" required [(ngModel)]="userModel.userName">
+                <ng-container *ngIf="registerForm?.get('userName')?.dirty && registerForm?.get('userName')?.touched && registerForm?.get('userName')?.errors">
+                  <div class="alert alert-danger" *ngIf="registerForm?.get('userName')?.errors?.['required']">
+                    Valid User Name is required.
+                  </div>
+                  <div class="alert alert-danger" *ngIf="registerForm?.get('userName')?.errors?.['minlength']">
+                    Your User Name must be contain 4 character at least
+                  </div>
+                </ng-container>
+              </div>
+              <div class="col-8">
+                <label for="password" class="form-label">Create a password</label>
+                <div class=" has-validation">
+                  <input type="password" class="form-control" id="password" placeholder="Please create a strong password..."  formControlName="password"   value="" name="password" required [(ngModel)]="userModel.password" >
+                  <ng-container class="mb-1" *ngIf="registerForm?.get('password')?.dirty && registerForm?.get('password')?.touched && registerForm?.get('password')?.errors">
+                    <div class="alert alert-danger" *ngIf="registerForm?.get('password')?.errors?.['required']">
+                      A Password is required.
+                    </div>
+                  </ng-container> 
+                </div>
+              </div>
+              <div class="col-8">
+                <label for="userEmail" class="form-label">Email <span class="text-muted"></span></label>
+                <input type="email" class="form-control" id="userEmail" placeholder="  Your email"  formControlName="userEmail"   name="userEmail" [(ngModel)]="userModel.userEmail">
+                <ng-container class="mb-1" *ngIf="registerForm?.get('userEmail')?.dirty && registerForm?.get('userEmail')?.touched && registerForm?.get('userEmail')?.errors">
+                  <div class="alert alert-danger" *ngIf="registerForm.get('userEmail')?.errors?.['required']">
+                    A Valid email is required
+                  </div>
+                  <div class="alert alert-danger" *ngIf="registerForm?.get('userEmail')?.errors?.['email']">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </ng-container>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="col-md-3">
+                  <label for="country" class="form-label">Country</label>
+
+                  <select class="form-select" id="city" name="city" [(ngModel)]="userModel.city"  formControlName="city"  required (change)="onCityChange($event)">
+                    <option *ngFor="let city of Cities" [value]="city.id-1">{{city.cityName}}</option>
+                  </select>
+
+                  <div class="invalid-feedback">
+                    Please select a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="district" class="form-label">District</label>
+                  <select class="form-select"  formControlName="district" [(ngModel)]="userModel.district"  id="district" required>
+                    <option value="">Choose...</option>
+                    <option *ngFor="let district of Districts" [value]="district.districtName"> {{district.districtName}}</option>
+                  </select>
+
+                  <div class="invalid-feedback">
+                    Please provide a valid district.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="dateOfBirth" class="form-label"> Date Of Birth</label>
+                  <input type="date" id="dateOfBirth" name="dateOfBirth" [(ngModel)]="userModel.dateOfBirth"  formControlName="dateOfBirth"    />
+
+                  <ng-container class="mb-1" *ngIf="registerForm?.get('dateOfBirth')?.dirty && registerForm?.get('dateOfBirth')?.touched && registerForm?.get('dateOfBirth')?.errors">
+                    <div class="alert alert-danger form-control" *ngIf="registerForm.get('dateOfBirth')?.errors?.['required']">
+                      Date Of Birth is required
+                    </div>
+
+                  </ng-container>
+                </div>
+              </div>
+            </div>
+            <hr class="my-4">
+            <div class="d-flex justify-content-end align-items-center mb-5 ">
+              <button class="btn btn-outline-success  btn-lg float-end" (click)="submitForm()">Sign Up</button>
+              <button class="btn btn-outline-warning  btn-lg float-end " type="button">Clear All</button>
+              <button class="btn btn btn-outline-danger btn-lg float-end " href="/">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </form>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+

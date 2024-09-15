@@ -1,0 +1,49 @@
+
+
+<div class="modal fade" id="addPostModal" tabindex="-1" aria-labelledby="addPostModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="addPostModalLabel"> ADD NEW BLOG POST</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+      </div>
+      <div class="modal-body">
+          <div class="container d-flex flex-column justify-content-center">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">Author Name</span>
+              <input type="text" class="form-control" placeholder="Username"  [(ngModel)]="blogModel.author" aria-label="Username" aria-describedby="basic-addon1" >
+            </div>
+            <div class="modal-body">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Title</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="title" [(ngModel)]="blogModel.title" aria-describedby="basic-addon1" >
+              </div>
+              <div class="input-group">
+                <span class="input-group-text">Content</span>
+                <textarea class="form-control" aria-label="With textarea" [(ngModel)]="blogModel.content" ></textarea>
+              </div>
+              <div class="input-group">
+                <div class="input-group my-3">
+                  <select class="form-select mb-3" aria-label="Large select example" [(ngModel)]="blogModel.categoryId" >
+                    <option selected>Choose a Category</option>
+                    <option *ngFor="let cat of Categories" value="cat.id">{{cat.name}}</option>
+                  </select>
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text">Upload as Pdf</span>
+                  <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"  > Close</button>
+              <button type="button" class="btn btn-success" (click)="submitForm()"> Add</button>
+            </div>
+          </div>
+
+        </div>
+      
+  </div>
+    </div>
+</div>

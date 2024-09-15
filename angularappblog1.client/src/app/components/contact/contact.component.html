@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <div class="contact-info">
+      <h2>Our Addresses</h2>
+      <div class="contact-methods">
+        <div>
+          <h3>Europe Branch</h3>
+          <address>
+            {{contactModel.address}}
+          </address>
+        </div>
+        <div>
+          <h3>Head Quarter</h3>
+          <address>
+            {{contactModel.address2}}
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Email:<a>  {{contactModel.email}}</a></p>
+      <p>Phone: <a>  {{contactModel.phone}}</a></p>
+    </div>
+  </div>
+</body>
+</html>

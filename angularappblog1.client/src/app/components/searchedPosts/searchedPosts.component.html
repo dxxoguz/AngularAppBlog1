@@ -1,0 +1,44 @@
+
+<body>
+<main>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div >
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" *ngIf="postService.searchedPosts">
+          <div class="col" *ngFor="let post of postService.searchedPosts">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">{{post.author}}</text></svg>
+              <div class="card-body">
+                <p class="card-text">{{post.content}}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" (click)="getClickedPost(post.id)">View</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="message" *ngIf="postService.searchMessage;else notFoundBlock">
+            {{postService.searchMessage}}
+          </div>
+          <ng-template #notFoundBlock>
+            <span>   No items found matching your search </span>
+          </ng-template>
+          <div>
+
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </body>

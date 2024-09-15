@@ -1,0 +1,47 @@
+/*.main {
+  width: 800px;
+  height: 500px;
+  max-width: 960px;
+  background-color: beige;
+  position: relative;
+  margin: 100px auto;
+  padding: 50px;
+  border-radius: 50px;
+  border: 1px solid blue;
+
+}*/
+textarea {
+  resize: none;
+}
+body {
+  background-color: #f8f9fa; /* Hafif gri arka plan */
+}
+
+.form-container {
+  background-color: #ffffff; /* Beyaz form arka planı */
+  border: 1px solid #dee2e6; /* Gri sınır */
+  color: #495057; /* Metin rengi */
+}
+
+.form-group label {
+  color: #6c757d; /* Açık gri etiket rengi */
+}
+
+.form-control {
+  border: 1px solid #ced4da; /* Gri sınır */
+}
+
+  .form-control::placeholder {
+    color: #6c757d; /* Gri placeholder rengi */
+  }
+
+.btn-primary {
+  background-color: #6c757d; /* Gri buton rengi */
+  border-color: #6c757d; /* Gri buton sınırı */
+}
+
+  .btn-primary:hover {
+    background-color: #5a6268; /* Daha koyu gri buton hover rengi */
+    border-color: #545b62; /* Daha koyu gri buton sınırı hover rengi */
+  }
+

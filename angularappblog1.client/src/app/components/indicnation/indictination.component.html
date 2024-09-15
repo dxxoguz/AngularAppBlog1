@@ -1,0 +1,117 @@
+<!--<html>
+<head>
+
+</head>
+<body>
+  <div class="main">
+    <div class="d-flex align-items-center-items-center">
+      <label for="title">Title</label>
+      <input name="title" id="title" class="form-control ms-5" [(ngModel)]="formModel.title" [ngModelOptions]="{standalone: true}" />
+    </div>
+    <div class="d-flex align-items-center-items-center">
+      <label for="content">Content</label>
+      <textarea name="content" id="content" pl rows="10" class="form-control ms-4 mt-2" [(ngModel)]="formModel.content" [ngModelOptions]="{standalone: true}"></textarea>
+    </div>
+    <button class="btn btn-lg btn-success float-end  mt-3" (click)="submitForm()"> Send  </button>
+  </div>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estetik Form</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <form class="w-50 p-4 rounded shadow form-container">
+      <div class="form-group">
+        <label for="inputEmail">Title</label>
+        <input type="email" class="form-control"  [(ngModel)]="formModel.title" [ngModelOptions]="{standalone: true}" id="title" aria-describedby="emailHelp" placeholder="Enter Title" name="title">
+      </div>
+      <div class="form-group">
+        <label for="inputMessage">Content</label>
+        <textarea class="form-control" id="content" rows=10 name="content" [(ngModel)]="formModel.content" [ngModelOptions]="{standalone: true}"  placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success btn-block btn-sm float-end">Submit</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indictination Form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-header {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="form-container">
+          <h2 class="form-header text-center">Indictination Form</h2>
+          <form>
+            <div class="form-group">
+              <label for="title">Başlık</label>
+              <input type="text" class="form-control" id="title" placeholder="Başlık girin">
+            </div>
+            <div class="form-group">
+              <label for="content">İçerik</label>
+              <textarea class="form-control" id="content" rows="5" placeholder="İçerik girin"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Gönder</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>-->

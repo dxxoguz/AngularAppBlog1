@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>User Settings</title>
+</head>
+<body>
+  <div class="container mt-5 p-3 ">
+    <form>
+      <div class="input-group mb-3">
+        <span class="input-group-text">First and last name</span>
+        <input type="text" readonly aria-label="First name" class="form-control">
+        <input type="text" readonly aria-label="Last name" class="form-control">
+      </div>
+
+      <span class="input-group-text">UserName</span>
+      <input type="text" readonly aria-label="User Name" class="form-control" [(ngModel)]="userSettingModel.username">
+
+
+      <div class="input-group mb-3">
+        <span class="input-group-text">Password</span>
+        <input type="password" aria-label="Password" class="form-control" [(ngModel)]="userSettingModel.password">
+      </div>
+
+      <div class="input-group mb-3" [(ngModel)]="userSettingModel.isActive">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked [(ngModel)]="userSettingModel.isActive">
+          <label class="form-check-label" for="flexSwitchCheckChecked"> Active Situation</label>
+        </div>
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked [(ngModel)]="userSettingModel.customer_inform">
+          <label class="form-check-label" for="flexSwitchCheckChecked"> Customer Inform</label>
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="User's Email" aria-label="User's Email" aria-describedby="basic-addon2" [(ngModel)]="userSettingModel.userMail">
+      </div>
+      <div class="input-group mb-3">
+        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload" [(ngModel)]="userSettingModel.profilePic">
+        <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+
+      </div>
+      <button class="form-control btn btn-lg btn-outline-success"> Update </button>
+    </form>
+  </div>
+</body>
+</html>
+
