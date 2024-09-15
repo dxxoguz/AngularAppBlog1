@@ -10,6 +10,7 @@ namespace AngularAppBlog1.Server.Controllers
     [Route("Auth")]
     public class AuthController : Controller
     {
+
         private readonly IAuthBusinessEngine _authEngine;
         public AuthController(IAuthBusinessEngine authEngine)
         {
